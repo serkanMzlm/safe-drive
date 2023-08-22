@@ -36,6 +36,7 @@ public:
 private:
   Joy_t speed;
   bool is_ready;
+  std::vector<int64_t> motor_val;
   rclcpp::Subscription<int32Msg>::SharedPtr keyboard_sub;
   rclcpp::Publisher<twistMsg>::SharedPtr keyboard_pub;
 };

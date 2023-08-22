@@ -2,4 +2,4 @@ controller_node:
   ros__parameters:
     a_scale: 0.2
     l_scale: 2.0
-
+    motor_value: [100, 11, 12, 14]
